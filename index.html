@@ -5,18 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog da Mia</title>
     <link rel="stylesheet" href="estilo.css">
-</head>
-<body>
-<header>
+ </head>
+ <body>
+ <header>
         <h1>Blog da Mia</h1>
         <p> vou compartilhar informações sobre tecnologia e programação, somos muito bons</p>
-</header>
-<main>
+
+<header>
+    <main>
     <img src="imagem.png" alt="logotipo conceitual">
+    <div>
     <h2>meu primeiro post</h2>
+    <p
     <p>por: Jhully Duarte</p>
     <p>Sejam muito bem vindos ao meu blog</p>
 <main>
 
-</body>
+</div>
+<button>Curtir<span>0</span><button>
+ </main>
+ </body>
+ <script>
+    const botão = document.querySelector('button');
+    botão.addEventListener("click",botãoClicado);
+
+ funtion botãoClicado(){ 
+ let texto = botão.querySelector("span")
+ texto.textContent++;
+}
+<script>
+
 </html>
